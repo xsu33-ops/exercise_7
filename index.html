@@ -8,46 +8,78 @@
     
     body { 
       font-family: arial;
+      background-color: lightblue;
+      max-width: 1200px;
     }
     
-    h1 , h2 , ul { 
-    font-family: "Inter Tight", sans-serif;
+    h2 {
+      font-size: 2em;
+      font-weight: 20px;
+      font-style: normal;
+      margin-bottom: 20px;
     }
     
+    h3 {
+      font-size: 1em;
+      font-weight: 20px;
+      font-style: normal;
+      margin-bottom: 0px;
+    }
     img {
-      width: 700px;
-      position: absolute;
-      right: 0px;
-      top: 0px;
-      padding: 10px;
+      width: 100%;
+      margin-bottom: 0px;
+    }
+    
+    p {
+      font-size: 20px;
     }
     
     .container {
-      max-width: 1200px;
-    }
+      display: grid;
+      grid-template-columns: 40% 60%;
+      }
+      
+      .left {
+      color: black;
+      font-size: 20px;
+      right: 30px;
+      }
+    
+      .right {
+      color: black;
+      font-size: 20px;
+      right: 30px;
+      }
+    
+    
   </style>
-  
 </head>
   
   <body>
+    
+    <div class="container"> 
+      
+    <section class="left">
     <h1>Spinach, Tofu and Sesame Stir-Fry</h1>
     <h3>By: Martha Rose Shulman</h3>
     <h3>Yield: 3 Servings</h3>
-    <img src="recipe-photo-Enhanced-SR.jpg" alt="A white bowl of tofu with lettuce">
-
-  <h2>Ingredients</h2>
-  <ul>
-    <li>1 tablespoon canola oil</li>
-    <li>½ pound tofu, cut in small dice</li>
-    <li>1 large garlic clove, minced</li>
-    <li>1 teaspoon grated or minced fresh ginger</li>
-    <li>¼ teaspoon red chili flakes</li>
-    <li>Soy sauce to taste</li>
-    <li>16-ounce bag baby spinach, rinsed</li>
-    <li>2 tablespoons toasted sesame seeds</li>
-    <li>1 teaspoon sesame oil</li>
-  </ul>
+      
+   <h2>Ingredients</h2>
+      <ul>
+        <li>1 tablespoon canola oil</li>
+        <li>½ pound tofu, cut in small dice</li>
+        <li>1 large garlic clove, minced</li>
+        <li>1 teaspoon grated or minced fresh ginger</li>
+        <li>¼ teaspoon red chili flakes</li>
+        <li>Soy sauce to taste</li>
+        <li>16-ounce bag baby spinach, rinsed</li>
+        <li>2 tablespoons toasted sesame seeds</li>
+        <li>1 teaspoon sesame oil</li>
+      </ul>
+      </section>
   
+    <section class="right">
+    <img src="recipe-photo-Enhanced-SR.jpg" alt="A white bowl of tofu with lettuce">
     <h2>Preparation</h2>
     <h3>Step 1</h3>
       <p>Heat the canola oil over medium-high heat in a large nonstick skillet or wok, and add the tofu. Stir-fry until the tofu is lightly colored, three to five minutes, and add the garlic, ginger and chili flakes. Cook, stirring, until fragrant, about one minute, and add soy sauce to taste. Add the spinach and stir-fry until the spinach wilts, about one minute. Stir in the sesame seeds, and add more soy sauce to taste. Remove from the heat.</p>
@@ -57,6 +89,8 @@
 
     <h3>Tip</h3>
       <p>Advance preparation: This is a last-minute preparation, but you can have your ingredients prepared well in advance.</p>
+      </section>
+    </div>
 
   </body>
 </html>
